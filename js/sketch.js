@@ -46,7 +46,7 @@ function setup() {
 
   console.log(pxDensity)
 
-  loadImage('../img/luc-van-soest.jpg', img => {
+  loadImage('img/luc-van-soest.jpg', img => {
 
     for (let x = 1; x < canvasWidth; x +=  gridSize) {
 
